@@ -1,6 +1,6 @@
 <?php
 
-namespace Edison\Uuid;
+namespace Lanqiukun\Uuid;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;

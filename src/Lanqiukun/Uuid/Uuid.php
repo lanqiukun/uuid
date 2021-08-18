@@ -1,6 +1,6 @@
 <?php
 
-namespace Edison\Uuid;
+namespace Lanqiukun\Uuid;
 
 use Exception;
 

@@ -21,16 +21,16 @@
     },
 	"autoload" : {
 		"psr-4" : {
-			"Edison\\Uuid\\": "src/Edison/Uuid/"
+			"Lanqiukun\\Uuid\\": "src/Lanqiukun/Uuid/"
 		}
 	},
     "extra": {
         "laravel": {
 			"providers": [
-				"Edison\\Uuid\\UuidServiceProvider"
+				"Lanqiukun\\Uuid\\UuidServiceProvider"
 			],
             "aliases": {
-                "Uuid": "Edison\\Uuid\\Uuid"
+                "Uuid": "Lanqiukun\\Uuid\\Uuid"
             }
         }
     }
