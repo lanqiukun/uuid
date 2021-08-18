@@ -1,6 +1,6 @@
 <?php
 
-namespace Webpatser\Uuid;
+namespace Edison\Uuid;
 
 use Exception;
 

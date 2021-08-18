@@ -1,15 +1,14 @@
 {
-	"name" : "webpatser/laravel-uuid",
-	"description" : "Laravel package to generate and to validate a universally unique identifier (UUID) according to the RFC 4122 standard. Support for version 1, 3, 4 and 5 UUIDs are built-in.",
+	"name" : "lanqiukun/uuid",
+	"description" : "just for test.",
 	"authors" : [{
-			"name" : "Christoph Kempen",
-			"email" : "christoph@downsized.nl"
+			"name" : "Edison Hsieh",
+			"email" : "154332303@downsized.nl"
 		}
 	],
 	"keywords" : [
 		"UUID RFC4122"
 	],
-	"homepage" : "https://github.com/webpatser/laravel-uuid",
 	"license" : [
 		"MIT"
 	],
@@ -22,25 +21,16 @@
     },
 	"autoload" : {
 		"psr-4" : {
-			"Webpatser\\Uuid\\": "src/Webpatser/Uuid/"
+			"Edison\\Uuid\\": "src/Edison/Uuid/"
 		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"Tests\\": "tests/"
-		}
-	},
-	"support" : {
-		"source" : "https://github.com/webpatser/laravel-uuid",
-		"issues" : "https://github.com/webpatser/laravel-uuid/issues"
 	},
     "extra": {
         "laravel": {
 			"providers": [
-				"Webpatser\\Uuid\\UuidServiceProvider"
+				"Edison\\Uuid\\UuidServiceProvider"
 			],
             "aliases": {
-                "Uuid": "Webpatser\\Uuid\\Uuid"
+                "Uuid": "Edison\\Uuid\\Uuid"
             }
         }
     }
